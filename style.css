@@ -467,6 +467,7 @@ ul {
 }
 
 .contacts-map {
+    flex: 1;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
