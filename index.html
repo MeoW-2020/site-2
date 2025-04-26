@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="img/logo.jpg" alt="Логотип Электропром">
+                    <span>ООО "Электропром"</span>
+                </div>
+
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#products">Продукция</a></li>
+                        <li><a href="#certificates">Сертификаты</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-contacts">
+                    <a href="tel:+74956166706" class="phone">
+                        <i class="fas fa-phone"></i> 8 (495) 616‑67‑06
+                    </a>
+                </div>
+
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Производство электротехнического оборудования</h1>
+                    <p class="subtitle">Высокое качество и надежность с 2007 года</p>
+                    <a href="#products" class="btn">Наша продукция</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">О компании</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Более 15 лет создаем современные системы электропривода для ключевых
+                            отраслей промышленности. Индивидуальные решения, проверенные технологии.</p>
+                        <p>Мы специализируемся на производстве:</p>
+                        <ul>
+                            <li>Фильтро-компенсирующих устройств</li>
+                            <li>Комплектных тиристорных устройств</li>
+                            <li>Низковольтного оборудования</li>
+                            <li>Щитовой аппаратуры</li>
+                        </ul>
+                        <p>Наша продукция соответствует всем требованиям ГОСТ и международным стандартам качества.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/proizvodstvo.png" alt="Производство Электропром">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products" class="section products">
+            <div class="container">
+                <h2 class="section-title">Наша продукция</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_fcu_1.webp" alt="Устройство фильтро-компенсирующее ФКУ-1">
+                        </div>
+                        <h3>Устройство фильтро-компенсирующее ФКУ-1</h3>
+                        <p>Серия ФКУ-1 для компенсации реактивной мощности и фильтрации высших гармоник в сети питания
+                            вспомогательных электроприводов буровой установки напряжением ~400В, частотой 50 Гц и
+                            мощностью 400 кВАр</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_fcu_2.webp" alt="Устройство фильтро-компенсирующее ФКУ-2">
+                        </div>
+                        <h3>Устройство фильтро-компенсирующее ФКУ-2</h3>
+                        <p>Серия ФКУ-2 для компенсации реактивной мощности и фильтрации в сети питания вспомогательных
+                            электроприводов буровой установки напряжением ~400В, частотой 50 Гц и мощностью 200 кВАр</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_ktu_1.webp" alt="Устройство комплектнре тиристорное">
+                        </div>
+                        <h3>Устройство комплектное тиристорное (транзисторное) КТУ</h3>
+                        <p>Устройство в контейнерном исполнении, включает в себя комплект электрооборудования для
+                            управления главными двигателями буровой установки и комплект электрооборудования для
+                            собственных нужд контейнера.</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_nku_1.webp" alt="Низковольтное оборудование">
+                        </div>
+                        <h3>Устройство комплектное низковольтное (НКУ)</h3>
+                        <p>Устройство в контейнерном исполнении, содержит комплект электрооборудования для управления
+                            вспомогательными двигателями буровой установки и комплект электрооборудования для
+                            собственных нужд контейнера.</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_ktu_svp_2.webp" alt="Устройство комплектнре транзисторное">
+                        </div>
+                        <h3>Устройство комплектное транзисторное КТУ-СВП</h3>
+                        <p>Устройство в контейнерном исполнении, включает в себя комплект электрооборудования для
+                            управления работой системы верхнего привода буровых установок и комплект электрооборудования
+                            для собственных нужд контейнера.</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="img/product_shtr_svp_1.webp" alt="Шкаф тормозного резистора для КТУ-СВП">
+                        </div>
+                        <h3>Шкаф тормозного резистора для КТУ СВП</h3>
+                        <p>Устройство предназначено для осуществления режима торможения электроприводов переменного тока
+                            в системе верхнего привода буровой установки. Представляет собой законченную конструктивную
+                            единицу, включающую в себя блоки резисторов, термостат и осевой вентилятор.</p>
+                        <a href="#" class="btn small">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificates" class="section certificates">
+            <div class="container">
+                <h2 class="section-title">Сертификаты</h2>
+                <div class="certificates-slider">
+                    <div class="certificate">
+                        <img src="img/sert-sootv.webp" alt="Сертификат соответствия" loading="lazy">
+                    </div>
+                    <div class="certificate">
+                        <img src="img/sert_kach.webp" alt="Сертификат качества" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section contacts">
+            <div class="container">
+                <h2 class="section-title">Контакты</h2>
+                <div class="contacts-content">
+                    <div class="contacts-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>129626, г. Москва, проспект Мира, д.106</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>8 (495) 616‑67‑06 (бесплатно по России)</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>electroprom@electroprom.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                        </div>
+                    </div>
+                    <div class="contacts-map">
+                        <iframe
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3Af7caf0edbae92ffb5c69dd630913c9adb478fc552a72b7b07d96adcbe83f1dae&amp;source=constructor"
+                            width="100%" height="400" frameborder="0" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#products">Продукция</a></li>
+                        <li><a href="#certificates">Сертификаты</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contacts">
+                    <a href="tel:+78001234567" class="phone">
+                        <i class="fas fa-phone"></i> 8 (495) 616‑67‑06
+                    </a>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 ООО "Электропром". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
