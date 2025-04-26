@@ -488,6 +488,8 @@ ul {
     flex-wrap: wrap;
     gap: 60px;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-menu ul li {
@@ -525,7 +527,7 @@ ul {
 }
 
 .footer-bottom {
-    text-align: center;
+    text-align: start;
     padding-top: 30px;
     border-top: 1px solid var(--border-color);
     font-size: 0.9rem;
