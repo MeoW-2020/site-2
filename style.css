@@ -19,10 +19,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-	overflow-x: hidden
-}
-
 body {
     font-family: "Roboto", sans-serif;
     color: var(--text-color);
@@ -613,12 +609,9 @@ ul {
 	.contacts-map {
 		flex: none;
 	}
-	
 }
 
 @media (max-width: 768px) {
-
-
     .hero {
         padding: 120px 0;
     }
