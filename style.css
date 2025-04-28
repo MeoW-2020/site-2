@@ -540,7 +540,7 @@ ul {
 }
 
 /* Анимации */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
     from {
         opacity: 0;
         transform: translateY(20px);
@@ -550,7 +550,7 @@ ul {
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */
 
 /* Адаптивность */
 @media (max-width: 992px) {
