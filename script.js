@@ -29,32 +29,32 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    const animateOnScroll = function () {
-        const elements = document.querySelectorAll('.product-card, .certificate');
+    // const animateOnScroll = function () {
+    //     const elements = document.querySelectorAll('.product-card, .certificate');
 
-        elements.forEach(element => {
-            const elementPosition = element.getBoundingClientRect().top;
-            const screenPosition = window.innerHeight / 1.3;
+    //     elements.forEach(element => {
+    //         const elementPosition = element.getBoundingClientRect().top;
+    //         const screenPosition = window.innerHeight / 1.3;
 
-            if (elementPosition < screenPosition) {
-                element.style.opacity = '1';
-                element.style.transform = 'translateY(0)';
-            }
-        });
-    };
+    //         if (elementPosition < screenPosition) {
+    //             element.style.opacity = '1';
+    //             element.style.transform = 'translateY(0)';
+    //         }
+    //     });
+    // };
 
-    window.addEventListener('load', function () {
-        const animatedElements = document.querySelectorAll('.product-card, .certificate');
-        animatedElements.forEach(element => {
-            element.style.opacity = '0';
-            element.style.transform = 'translateY(30px)';
-            element.style.transition = 'opacity 0.5s, transform 0.5s';
-        });
+    // window.addEventListener('load', function () {
+    //     const animatedElements = document.querySelectorAll('.product-card, .certificate');
+    //     animatedElements.forEach(element => {
+    //         element.style.opacity = '0';
+    //         element.style.transform = 'translateY(30px)';
+    //         element.style.transition = 'opacity 0.5s, transform 0.5s';
+    //     });
 
-        animateOnScroll();
-    });
+    //     animateOnScroll();
+    // });
 
-    window.addEventListener('scroll', animateOnScroll);
+    // window.addEventListener('scroll', animateOnScroll);
 
     const certificates = document.querySelectorAll('.certificate');
     const modal = document.createElement('div');
